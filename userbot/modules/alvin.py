@@ -432,9 +432,9 @@ async def typewriter(typew):
     await typew.edit("`I LOVEE YOUUUU💘💓`")
     sleep(1)
     await typew.edit("`Tapi Bo'ong`")
-
 # Create by myself @localheart
-@register(outgoing=True, pattern='^.gombal(?: |$)(.*)')
+
+@register(outgoing=True, pattern='^.mantan(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
