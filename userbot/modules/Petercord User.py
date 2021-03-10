@@ -484,6 +484,24 @@ async def typewriter(typew):
     await typew.edit("`🥺😭🥺😭🥺😭🥺`")
 # Create by myself @localheart
 
+@register(outgoing=True, pattern='^.salam(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`Bismillah semoga diterima salamnya`")
+    sleep(1)
+    await typew.edit("`Assalammuallaikum😊😊`")
+# Create by myself @localheart
+
+@register(outgoing=True, pattern='^.salam(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`Eh lupa jawab salam maaf atuh`")
+    sleep(1)
+    await typew.edit("`Walaikumsalam😊`")
+# Create by myself @localheart
+
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.dino`\
