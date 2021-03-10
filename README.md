@@ -1,9 +1,9 @@
-<a href="Petercord User">[Logo]="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg" width="473" height="82" alt="Petercord User" /></a>
+![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg)
 
 
 <p align="center">
   <a href="https://github.com/Zora24/Lord-Userbot/fork">
-    [Logo]="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg">
+    ![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg)">
     
   </a>
   <a href="https://github.com/Zora24/Lord-Userbot">
