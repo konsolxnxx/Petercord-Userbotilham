@@ -493,7 +493,7 @@ async def typewriter(typew):
     await typew.edit("`Assalammuallaikum😊😊`")
 # Create by myself @localheart
 
-@register(outgoing=True, pattern='^.salam(?: |$)(.*)')
+@register(outgoing=True, pattern='^.jawab(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
