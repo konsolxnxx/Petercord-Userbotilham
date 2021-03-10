@@ -498,6 +498,4 @@ CMD_HELP.update({
     \nUsage: Auk dah iseng doang."
     \n\n`.mantan`\
     \nUsage: Mengingatkan mantan."
-    \n\n`.sedih`\
-    \nUsage: aku sedih."
 })
