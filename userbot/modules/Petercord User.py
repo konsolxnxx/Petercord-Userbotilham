@@ -496,6 +496,4 @@ CMD_HELP.update({
     \nUsage: untuk jadi buaya.\
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
-    \n\n`.mantan`\
-    \nUsage: Mengingatkan mantan."
 })
