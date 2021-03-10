@@ -31,7 +31,7 @@ async def koc(e):
         await e.edit("MY BABY")
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
-        await e.edit("SAYANG KAMU💞")
+        await e.edit("GA DITERIMA🥺🥺💞")
 
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
@@ -89,7 +89,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`🧎🦖`")
     sleep(2)
-    await typew.edit("`-TAMAT-`")
+    await typew.edit("`-TAMAT udahlah-`")
 
 
 @register(outgoing=True, pattern="^.gabut$")
