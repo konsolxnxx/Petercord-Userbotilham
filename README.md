@@ -1,13 +1,13 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5501763.gif" width="473" height="82" alt="Petercord User" /></a>
+<a href="Petercord User"><Logo="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg" width="473" height="82" alt="Petercord User" /></a>
 
 
 <p align="center">
   <a href="https://github.com/Zora24/Lord-Userbot/fork">
-    <img src="https://img.shields.io/github/forks/Zora24/Lord-Userbot?label=Fork&style=social">
+    <Logo="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg">
     
   </a>
   <a href="https://github.com/Zora24/Lord-Userbot">
-    <img src="https://img.shields.io/github/stars/Zora24/Petercord User?style=social">
+    <img src="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg User?style=social">
   </a>
 </p>  
 
