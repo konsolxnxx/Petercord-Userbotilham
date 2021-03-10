@@ -459,6 +459,31 @@ async def typewriter(typew):
     await typew.edit("`CUMA MANTAN AJAPUN🥺`")
 # Create by myself @localheart
 
+@register(outgoing=True, pattern='^.sedih(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`AKU SEDIH LOH `")
+    sleep(1)
+    await typew.edit("`KAU SEDIH GAK?`")
+    sleep(1)
+    await typew.edit("`🥺🥺🥺`")
+    sleep(1)
+    await typew.edit("`🥺🥺`")
+    sleep(1)
+    await typew.edit("`😭🙃`")
+    sleep(1)
+    await typew.edit("`😭😭😭😭`")
+    sleep(1)
+    await typew.edit("`SUNGGUH TEGA`")
+    sleep(1)
+    await typew.edit("`AKU LIAT KAU BERDUAAN😭`")
+    sleep(1)
+    await typew.edit("`🙂🙃😭`")
+    sleep(1)
+    await typew.edit("`🥺😭🥺😭🥺😭🥺`")
+# Create by myself @localheart
+
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.dino`\
@@ -473,4 +498,6 @@ CMD_HELP.update({
     \nUsage: Auk dah iseng doang."
     \n\n`.mantan`\
     \nUsage: Mengingatkan mantan."
+    \n\n`.sedih`\
+    \nUsage: Mengingatkan sedih."
 })
