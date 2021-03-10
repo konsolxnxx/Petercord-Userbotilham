@@ -1,7 +1,7 @@
 {
-  "name": "Lord-Userbot",
-  "description": "[Lord-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/62dc59b2013a48f9cc8f3.jpg",
+  "name": "Petercord User",
+  "description": "[Petercord User] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/4b7abfa73c23836a372b1.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/Zora24/Lord-Userbot",
-  "telegram": "https://t.me/liualvinas",
-  "success_url": "https://t.me/liualvinasmahaputra",
+  "telegram": "https://t.me/bismillahselaluadaa",
+  "success_url": "https://t.me/bismillahselaluadaa",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @liualvinas di telegram",
+      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @bismillahselaluadaa di telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -151,7 +151,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "LORD-USERBOT",
+      "value": "Petercord User",
       "required": false
     },
     "ALIVE_NAME": {
