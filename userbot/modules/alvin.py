@@ -432,6 +432,31 @@ async def typewriter(typew):
     await typew.edit("`I LOVEE YOUUUU💘💓`")
     sleep(1)
     await typew.edit("`Tapi Bo'ong`")
+
+# Create by myself @localheart
+@register(outgoing=True, pattern='^.gombal(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`HAI MANTAN☹️`")
+    sleep(1)
+    await typew.edit("`BERUBAH KARENA DIA`")
+    sleep(1)
+    await typew.edit("`ALASAN`")
+    sleep(1)
+    await typew.edit("`SOK SIBUK`")
+    sleep(1)
+    await typew.edit("`JAWAB SINGKAT`")
+    sleep(1)
+    await typew.edit("`KAU PERGI DENGANNYA`")
+    sleep(1)
+    await typew.edit("`SUNGGUH TEGA`")
+    sleep(1)
+    await typew.edit("`AKU LIAT KAU BERDUAAN😭`")
+    sleep(1)
+    await typew.edit("`KAN KEINGET😑`")
+    sleep(1)
+    await typew.edit("`CUMA MANTAN AJAPUN🥺`")
 # Create by myself @localheart
 
 CMD_HELP.update({
@@ -445,5 +470,7 @@ CMD_HELP.update({
     \n\n`.sayang`\
     \nUsage: untuk jadi buaya.\
     \n\n`.terkadang`\
+    \nUsage: Auk dah iseng doang."
+    \n\n`.mantan`\
     \nUsage: Auk dah iseng doang."
 })
