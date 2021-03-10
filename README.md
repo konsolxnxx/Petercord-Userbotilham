@@ -1,18 +1,18 @@
-<a href="Petercord User"><Logo="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg" width="473" height="82" alt="Petercord User" /></a>
+<a href="Petercord User">[Logo]="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg" width="473" height="82" alt="Petercord User" /></a>
 
 
 <p align="center">
   <a href="https://github.com/Zora24/Lord-Userbot/fork">
-    <Logo="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg">
+    [Logo]="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg">
     
   </a>
   <a href="https://github.com/Zora24/Lord-Userbot">
-    <img src="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg User?style=social">
+    [Logo]="https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg User?style=social">
   </a>
 </p>  
 
 # Petercord User
-![Petercord User Logo](https://telegra.ph/file/c30c2e6ca336eef2d599f.mp4)
+![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
