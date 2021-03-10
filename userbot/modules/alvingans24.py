@@ -1,4 +1,4 @@
-# Alvin Gans
+# Petercord User
 
 from time import sleep
 from userbot import CMD_HELP, bot
@@ -173,9 +173,9 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 6])
-# Alvin Imut
-# Alvin Gans
-# Lord
+# Petercord User
+# Petercord User
+# Petercord User
 CMD_HELP.update({
     "animasi":
     "`.nah` ; `.huh` ; `.owner`\
