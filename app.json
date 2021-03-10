@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ilham77mansiz/Lord-Userbot",
+  "repository": "https://github.com/ilham77mansiz/Petercord-Userbotilham",
   "telegram": "https://t.me/bismillahselaluadaa",
   "success_url": "https://t.me/bismillahselaluadaa",
   "stack": "container",
@@ -158,8 +158,8 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "LORD_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .lord (Isi Terserah)",
+    "Petercord_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .petercord (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
