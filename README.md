@@ -1,8 +1,7 @@
 ![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg)
 
 
-<p align="center">
-  
+
     ![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg)">
     
   </a>
