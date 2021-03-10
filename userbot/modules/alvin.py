@@ -472,5 +472,5 @@ CMD_HELP.update({
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
     \n\n`.mantan`\
-    \nUsage: Auk dah iseng doang."
+    \nUsage: mengingatkan."
 })
