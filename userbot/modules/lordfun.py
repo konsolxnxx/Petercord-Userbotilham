@@ -1,5 +1,5 @@
 # Based Plugins
-# Ported For Lord-Userbot By liualvinas/Alvin
+# Ported For Petercord-Userbot By bismillahselaluadaa/Ilham
 # If You Kang It Don't Delete / Warning!! Jangan Hapus Ini!!!
 from userbot import CMD_HELP, bot
 from userbot.events import register
@@ -17,7 +17,7 @@ async def _(event):
     await tap[0].click(event.chat_id)
     await event.delete()
 
-# Alvin Gans
+# ILham Mansiezz
 
 
 @register(outgoing=True, pattern=r"^\.wp(?: |$)(.*)")
@@ -32,7 +32,7 @@ async def _(event):
     await tap[0].click(event.chat_id)
     await event.delete()
 
-# Alvin Gans
+# ILham Mansiezz
 
 
 @register(outgoing=True, pattern=r"^\.mod(?: |$)(.*)")
@@ -47,10 +47,10 @@ async def _(event):
     await tap[0].click(event.chat_id)
     await event.delete()
 
-# Ported For Lord-Userbot By liualvinas/Alvin
+# Ported For Petercord-Userbot By bismillahselaluadaa/ILham
 
 CMD_HELP.update({
-    "lordfun": "\
+    "Petercordfun": "\
 `.xogame`\
 \nUsage: Mainkan game XO bersama temanmu.\
 \n\n`.mod <nama app>`\
