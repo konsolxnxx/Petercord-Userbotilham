@@ -103,7 +103,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/ilham77mansiz/Petercord-Userbotilham.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Petercord Userbot")
+    "UPSTREAM_REPO_BRANCH", "Petercord-Userbotilham")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -412,7 +412,7 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Lord✗Userbot ",
+                    "Bantuan Petercord✗Userbot ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
@@ -465,7 +465,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy Lord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Petercord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -496,7 +496,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Harap Deploy Lord Userbot Anda Sendiri, Jangan Menggunakan Milik Petercord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Petercord Userbot Anda Sendiri, Jangan Menggunakan Milik Petercord {ALIVE_NAME} ツ"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
