@@ -158,8 +158,8 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "Petercord_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .petercord (Isi Terserah)",
+    "LORD_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .lord (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
