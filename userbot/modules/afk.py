@@ -26,7 +26,7 @@ from userbot.events import register
 AFKSTR = [
     f"**Maaf Petercord User {ALIVE_NAME} Sedang AFK!**",
     f"**Maaf Petercord User {ALIVE_NAME} Sedang AFK\n Tunggu Sampai Dia Kembali Online! Jangan rindu ya berat**",
-    f"**Lord {ALIVE_NAME} Sedang AFK\n Tunggulah Sampai Online**",
+    f"**Petercord {ALIVE_NAME} Sedang AFK\n Tunggulah Sampai Online**",
     f"**Maaf Petercord User {ALIVE_NAME} Sedang AFK!**",
 ]
 
