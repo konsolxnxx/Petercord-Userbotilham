@@ -46,10 +46,10 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**★ PING ★**")
-    await pong.edit("**★✫ PING ★✫**")
-    await pong.edit("**★✫★ PING ★✫★**")
-    await pong.edit("**★✫★✫ PING ★✫★✫**")
+    await pong.edit("**★ PING PONG ★**")
+    await pong.edit("**★✫ PING PONG ★✫**")
+    await pong.edit("**★✫★ JADI APA ★✫★**")
+    await pong.edit("**★✫★✫ PROK PROK PROK  ★✫★✫**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**𖣘 PING** "
@@ -151,7 +151,7 @@ def speed_convert(size):
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
-    await pong.edit("`Pong.....🔨`")
+    await pong.edit("`Pong.....🔨 PONG PONG ADA HUJAN DIHUTAN`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     await pong.edit("✘ **Ping!**\n`%sms`" % (duration))
