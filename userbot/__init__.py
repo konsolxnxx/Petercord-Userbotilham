@@ -3,7 +3,6 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 # inline credit @keselekpermen69
-# Pengguna Petercord Userbot
 """ Userbot initialization. """
 
 import os
@@ -103,7 +102,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/ilham77mansiz/Petercord-Userbotilham.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Petercord-Userbotilham")
+    "UPSTREAM_REPO_BRANCH", "Lord-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -147,9 +146,6 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
-# untuk perintah .lord
-LORD_TEKS_KUSTOM = os.environ.get("LORD_TEKS_KUSTOM", None)
-
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
@@ -167,7 +163,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Petercord Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Petercord-Usebotilham")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
@@ -180,7 +176,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/c30c2e6ca336eef2d599f.mp4"
+    "ALIVE_LOGO") or "https://telegra.ph/file/d732516a8511750c153c6.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -319,7 +315,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```『Petercord Userbot Telah Aktif』```")
+    await bot.send_message(BOTLOG_CHATID, "```⚔ PETERCORD-USERBOT Telah Aktif⚔```")
     return
 
 with bot:
@@ -349,7 +345,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} ♛".format("♛", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} ❂".format("❂", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -365,10 +361,10 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "☚", data="{}_prev({})".format(prefix, modulo_page)
+                    "⇚", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "☛", data="{}_next({})".format(prefix, modulo_page)
+                    "⇛", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
@@ -390,9 +386,9 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("Petercord Userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/ilham77mansiz/Petercord-Userbotilham.git)")
+                await event.reply("Petercord-Userbotilham, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/ilham77mansiz/Petercord-Userbotilham.git)")
             else:
-                await event.reply(f"`Hai Petercord {ALIVE_NAME}\n\nApa Kabarmu?`")
+                await event.reply(f"`Hai Sayang {ALIVE_NAME}\n\nApa Kabarmu?`")
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
@@ -403,8 +399,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Petercord Userbot:** \n".format(
-                        "**♛ Petercord Userbot**",
+                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Petercord-Userbotilham:** \n".format(
+                        "**❂ Petercord-Userbotilham**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -412,18 +408,18 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Petercord✗Userbot ",
+                    "Bantuan Petercord-Userbotilham ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**Petercord Userbot**",
-                    text="""**Anda Bisa Membuat Petercord Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/petercord)""",
+                    "**Petercord-Userbotilham**",
+                    text="""**Anda Bisa Membuat Gabut Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/Lorduserbot_Group)""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Repo Petercord Userbot",
+                                "Repo Petercord-Userbotilham",
                                 "https://github.com/ilham77mansiz/Petercord-Userbotilham"),
                             custom.Button.url(
                                 "Pemilik Repo",
@@ -447,7 +443,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy Petercord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Lord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -465,7 +461,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy Petercord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Lord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -496,14 +492,15 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Harap Deploy Petercord Userbot Anda Sendiri, Jangan Menggunakan Milik Petercord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Petercord-Userbotilham Anda Sendiri, Jangan Menggunakan Milik Petercord {ALIVE_NAME} ツ"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     except BaseException:
         LOGS.info(
-            "Mode Inline Bot Mu Nonaktif. "
-            "Untuk Mengaktifkan Pergi Ke @BotFather, lalu settings bot > pilih mode inline > Turn On. ")
+            "Support for inline is disabled on your bot. "
+            "To enable it, define a bot token and enable inline mode on your bot. "
+            "If you think there is a problem other than this, contact us.")
     try:
         bot.loop.run_until_complete(check_botlog_chatid())
     except BaseException:
