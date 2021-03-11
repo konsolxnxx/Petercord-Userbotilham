@@ -103,7 +103,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/ilham77mansiz/Petercord-Userbotilham.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Lord-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Petercord-Userbotilham")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -180,7 +180,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/d732516a8511750c153c6.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/c30c2e6ca336eef2d599f.mp4"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -404,7 +404,7 @@ with bot:
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Petercord Userbot:** \n".format(
-                        "**♛ Petercord-Userbotilham**",
+                        "**♛ Petercord Userbot**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -418,12 +418,12 @@ with bot:
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**Petercord-Userbotilham**",
+                    "**Petercord Userbot**",
                     text="""**Anda Bisa Membuat Petercord Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/petercord)""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Repo Petercord-Userbotilham",
+                                "Repo Petercord Userbot",
                                 "https://github.com/ilham77mansiz/Petercord-Userbotilham"),
                             custom.Button.url(
                                 "Pemilik Repo",
