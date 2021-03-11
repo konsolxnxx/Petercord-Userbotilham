@@ -502,6 +502,34 @@ async def typewriter(typew):
     await typew.edit("`Walaikumsalam😊`")
 # Create by myself @localheart
 
+@register(outgoing=True, pattern="^.pantun$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("I LOVEE YOUUU 💕")
+        await e.edit("IKAN HIU")
+        await e.edit("MAKAN ULAR")
+        await e.edit("EH SALAH APA YA LUPA TADI")
+        await e.edit("EH GOBLOK")
+        await e.edit("LU GOBLOK")
+        await e.edit("BUAT PARA CEWEK ILOVE U😍")
+        await e.edit("JANGAN PERNAH BILANG ADA YANG MENYAKITIMU")
+        await e.edit("NANTI ORANG ITU AKAN HILANG")
+        await e.edit("MAU GA JADI PACARKU")
+        await e.edit("TETAP DISINI")
+        await e.edit("TENAMANI AKU")
+        await e.edit("SEPANJANG HIDUPKUUU")
+        await e.edit("PERCAYALAH KUAKAN SELINGKUH 💕")
+        await e.edit("MENDUAKANMU")
+        await e.edit("SAYANG")
+        await e.edit("KAMU")
+        await e.edit("SAYANG")
+        await e.edit("YOK GASKANNNN")
+        await e.edit("I LOVE YOUUUU")
+        await e.edit("MY BABY")
+        await e.edit("💕💞💘💝")
+        await e.edit("💘💕💞💝")
+        await e.edit("MUACH MUACH😍😁💞")
+# Create by myself @localheart
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.dino`\
