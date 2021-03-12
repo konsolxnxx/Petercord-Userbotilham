@@ -1,12 +1,4 @@
-![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg)
 
-
-
-    ![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg)">
-    
-  
-    ![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg) 
-  </a>
 </p>  
 
 # Petercord User
@@ -19,9 +11,11 @@
 Repo Yang Dibuat [ILham Mansiezz](https://t.me/bismillahselaluadaa) Dari Berbagai Repo Userbot Github 
 
 
-### CARA MENDAPATKAN STRING SESSON
+### CARA MENDAPATKAN STRING SESSON /STRING DISINI
+### Run on repl.it
 
-Caranya Pergi Ke Grup Support Petercord User Lalu Ketik #String [TEKAN DISINI](https://t.me/LordUserbot_Group) Untuk Masuk Ke Grup Support
+[![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://repl.it/@mansiezz/String-Sesson-Petercord-Userbot#main.py)
+Caranya Pergi Ke Grup Support Petercord User Lalu Ketik #String [TEKAN DISINI](https://t.me/petercord) Untuk Masuk Ke Grup Support
 
 ## Bagaimana Cara Deploy?
 
@@ -42,25 +36,12 @@ Atau Bisa Gabung Ke Grup Petercord User -> [TEKAN DISINI](https://t.me/LordUserb
 ## <p align="center">DEPLOY Petercord User</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ilham77mansiz/Petercord-Userbotilham"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ilham77mansiz/Petercord-Userbotilham/tree/Petercord-Userbotilham"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
 
-## Credit
+## TERIMAKASIH
 TERIMAKASIH UNTUK
 
-*   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
-*   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
-*   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
-*   [Mr.Miss](https://github.com/keselekpermen69) - UserButt
-*   [adekmaulana](https://github.com/adekmaulana) - ProjectBish
-*   [MoveAngel](https://github.com/MoveAngel) - One4uBot
-*   [AidilAryanto](https://github.com/aidilaryanto) - ProjectDils 
-*   [Alfianandaa](https://github.com/alfianandaa/ProjectAlf) - ProjectAlf
-*   [AnggaR69s](https://github.com/GengKapak/DCLXVI) - DCLXVI
-*   [kandnub](https://github.com/kandnub) - TG-UserBot
-*   [༺αиυвιѕ༻](https://github.com/Dark-Princ3) - X-tra-Telegram
-*   [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
-*   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
-*   DAN BANYAK LAGI 
+[ILham Mansiezz](https://t.me/bismillahselaluadaa)
