@@ -32,7 +32,7 @@ Caranya Pergi Ke Grup Support Petercord User Lalu Ketik #String [TEKAN DISINI](h
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
-Atau Bisa Gabung Ke Grup Petercord User -> [TEKAN DISINI](https://t.me/LordUserbot_Group)
+Atau Bisa Gabung Ke Grup Petercord User -> [TEKAN DISINI](https://t.me/petercord)
 ## <p align="center">DEPLOY Petercord User</p>
 
 
