@@ -1,9 +1,11 @@
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/5512630.gif" width="292" height="49" alt="PETERCORD USERBOT" /></a>
+
 
 </p>  
 
 # Petercord User
-![Petercord User Logo](https://telegra.ph/file/dd6d0e499273c59aa7ebc.jpg)
-
+![Petercord User Logo](https://telegra.ph/file/f4d7c0999510528dec925.jpg)
+![Petercord User Logo](https://telegra.ph/file/0862ca575f34361ac5e0d.jpg)
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
