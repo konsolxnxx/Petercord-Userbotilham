@@ -70,7 +70,7 @@ async def killdabot(event):
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`Lord-Userbot Telah Dimatikan`")
+                                        "`Petercord-Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
