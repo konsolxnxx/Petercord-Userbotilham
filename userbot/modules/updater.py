@@ -91,7 +91,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Lord-Userbot Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Petercord.....`")
+            await event.edit("`Petercord-Userbot Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Petercord.....`")
             await asyncio.sleep(15)
             await event.delete()
 
