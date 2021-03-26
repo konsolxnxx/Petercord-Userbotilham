@@ -1,23 +1,16 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5512630.gif" width="292" height="49" alt="PETERCORD USERBOT" /></a>
-
-
-</p>  
-
-# Petercord User
-![Petercord User Logo](https://telegra.ph/file/f4d7c0999510528dec925.jpg)
-![Petercord User Logo](https://telegra.ph/file/0862ca575f34361ac5e0d.jpg)
+# Pocong Userbot
+![Pocong Userbot Logo](https://telegra.ph/file/f36fe8fc696203737e820.jpg)
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo Petercord User
-Repo Yang Dibuat [ILham Mansiezz](https://t.me/bismillahselaluadaa) Dari Berbagai Repo Userbot Github 
+### Repo Pocong Userbot
+Repo Yang Dibuat [ILham Mansiezz](https://github.com/ikyfadilla) Dari Berbagai Repo Userbot Di Github 
 
 
 ### CARA MENDAPATKAN STRING SESSON /STRING DISINI
 ### Run on repl.it
 
 [![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://repl.it/@mansiezz/String-Sesson-Petercord-Userbot#main.py)
-Caranya Pergi Ke Grup Support Petercord User Lalu Ketik #String [TEKAN DISINI](https://t.me/petercord) Untuk Masuk Ke Grup Support
 
 ## Bagaimana Cara Deploy?
 
@@ -38,12 +31,26 @@ Atau Bisa Gabung Ke Grup Petercord User -> [TEKAN DISINI](https://t.me/petercord
 ## <p align="center">DEPLOY Petercord User</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ilham77mansiz/Petercord-Userbotilham/tree/Petercord-Userbotilham"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ikyfadilla/PocongUserbot/tree/pocong"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
 
-## TERIMAKASIH
-TERIMAKASIH UNTUK
+## Credits
+*   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
+*   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
+*   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
+*   [Mr.Miss](https://github.com/keselekpermen69) - UserButt
+*   [adekmaulana](https://github.com/adekmaulana) - ProjectBish
+*   [MoveAngel](https://github.com/MoveAngel) - One4uBot
+*   [AidilAryanto](https://github.com/aidilaryanto) - ProjectDils 
+*   [Alfianandaa](https://github.com/alfianandaa/ProjectAlf) - ProjectAlf
+*   [AnggaR69s](https://github.com/GengKapak/DCLXVI) - DCLXVI
+*   [kandnub](https://github.com/kandnub) - TG-UserBot
+*   [à¼ºÎ±Ð¸Ï…Ð²Î¹Ñ•à¼»](https://github.com/Dark-Princ3) - X-tra-Telegram
+*   [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
+*   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
+*   AND OTHER
 
-[ILham Mansiezz](https://t.me/bismillahselaluadaa)
+## License
+Licensed under [Raphielscape Public License](https://github.com/X-Newbie/XBot-Remix/blob/x-sql-extended/LICENSE) - Version 1.d, February 2020
