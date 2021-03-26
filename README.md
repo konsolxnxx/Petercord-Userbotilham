@@ -10,7 +10,9 @@ Repo Yang Dibuat [ILham Mansiezz](https://github.com/ikyfadilla) Dari Berbagai R
 ### CARA MENDAPATKAN STRING SESSON /STRING DISINI
 ### Run on repl.it
 
-[![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://repl.it/@mansiezz/String-Sesson-Petercord-Userbot#main.py)
+[![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://repl.it/@TeamUltroid/UltroidStringSession#main.py)
+
+String Session Generator By [Team Ultroid](https://github.com/TeamUltroid)
 
 ## Bagaimana Cara Deploy?
 
@@ -27,7 +29,6 @@ Repo Yang Dibuat [ILham Mansiezz](https://github.com/ikyfadilla) Dari Berbagai R
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
-Atau Bisa Gabung Ke Grup Petercord User -> [TEKAN DISINI](https://t.me/petercord)
 ## <p align="center">DEPLOY Petercord User</p>
 
 
@@ -47,7 +48,7 @@ Atau Bisa Gabung Ke Grup Petercord User -> [TEKAN DISINI](https://t.me/petercord
 *   [Alfianandaa](https://github.com/alfianandaa/ProjectAlf) - ProjectAlf
 *   [AnggaR69s](https://github.com/GengKapak/DCLXVI) - DCLXVI
 *   [kandnub](https://github.com/kandnub) - TG-UserBot
-*   [à¼ºÎ±Ð¸Ï…Ð²Î¹Ñ•à¼»](https://github.com/Dark-Princ3) - X-tra-Telegram
+*   [Prince Mendiratta](https://github.com/Dark-Princ3) - X-tra-Telegram
 *   [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
 *   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
 *   AND OTHER
