@@ -1,6 +1,6 @@
 {
   "name": "Pocong Userbot",
-  "description": "[𝐏𝐨𝐜𝐨𝐧𝐠 𝐎𝐧𝐥𝐞𝐧 User] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "description": "[Pocong Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/f36fe8fc696203737e820.jpg",
   "keywords": [
     "telegram",
@@ -151,7 +151,6 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "Petercord User",
       "required": false
     },
     "ALIVE_NAME": {
@@ -168,7 +167,6 @@
     },
     "G_BAN_LOGGER_GROUP": {
       "description": "Buatlah Sebuah Grup Private/Public Lalu Masukkan Bot Rose Lalu Ketik /id.",
-      "value": "Isi id grup mu",
       "required": false
     },
     "G_DRIVE_DATA": {
@@ -185,7 +183,6 @@
     },
     "BITLY_TOKEN": {
       "description": "Your Bit.ly API key, get it from 'https://bitly.com/a/sign_up'",
-      "value": "",
       "required": false
     },
     "UB_BLACK_LIST_CHAT": {
@@ -198,7 +195,6 @@
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "Medan",
       "required": false
     },
     "LOGSPAMMER": {
