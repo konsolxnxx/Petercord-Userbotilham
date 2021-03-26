@@ -1,4 +1,4 @@
-# System Stats 𝐏𝐨𝐜𝐨𝐧𝐠 𝐎𝐧𝐥𝐞𝐧-Userbot
+# System Stats Pocong Userbot
 
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -86,9 +86,9 @@ async def psu(event):
     svmem = psutil.virtual_memory()
     memm = "**Memori Digunakan**\n"
     memm += f"`Total     : {get_size(svmem.total)}`\n"
-    memm += f"`Available : {get_size(svmem.available)}`\n"
-    memm += f"`Used      : {get_size(svmem.used)}`\n"
-    memm += f"`Percentage: {svmem.percent}%`\n"
+    memm += f"`Tersedia  : {get_size(svmem.available)}`\n"
+    memm += f"`Digunakan : {get_size(svmem.used)}`\n"
+    memm += f"`Persentase: {svmem.percent}%`\n"
     # Bandwidth Usage
     bw = "**Bandwith Digunakan**\n"
     bw += f"`Unggah  : {get_size(psutil.net_io_counters().bytes_sent)}`\n"
@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**𝐏𝐨𝐜𝐨𝐧𝐠 𝐎𝐧𝐥𝐞𝐧-Userbot Versi:** \n "
+            "**☛**Pocong Userbot Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -223,9 +223,9 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**♕ 𝐏𝐨𝐜𝐨𝐧𝐠 𝐎𝐧𝐥𝐞𝐧 Userbot** \n"
+        f"**♕ Pocong Userbot** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `𝐏𝐨𝐜𝐨𝐧𝐠 𝐎𝐧𝐥𝐞𝐧     :`{DEFAULTUSER} \n"
+        f"┣|• `User     :`{DEFAULTUSER} \n"
         f"┣|• `Username :`@{user.username} \n"
         f"┣|• `Telethon :`Ver {version.__version__} \n"
         f"┣|• `Python   :`Ver {python_version()} \n"
