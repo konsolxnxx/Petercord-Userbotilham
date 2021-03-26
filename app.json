@@ -42,7 +42,6 @@
     },
     "BOTLOG_CHATID": {
       "description": "Buatlah sebuah grup private/public masukan bot rose lalu ketik /id.",
-      "value": "Isi id grup mu",
       "required": true
     },
     "CONSOLE_LOGGER_VERBOSE": {
@@ -80,7 +79,7 @@
     },
     "TZ_NUMBER": {
       "description": "Change this value in case your country has multiple Time Zones.",
-      "value": "1",
+      "value": "7",
       "required": false
     },
     "OPEN_WEATHER_MAP_APPID": {
@@ -118,7 +117,7 @@
     },
     "CLEAN_WELCOME": {
       "description": "When a new person joins, the old welcome message is deleted.",
-      "value": "True"
+      "value": "False"
     },
     "G_DRIVE_FOLDER_ID": {
       "description": "Create a folder and put that folder's id here.check folder link for id.",
