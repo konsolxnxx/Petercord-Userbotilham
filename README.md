@@ -32,7 +32,7 @@ String Session Generator By [Team Ultroid](https://github.com/TeamUltroid)
 ## <p align="center">DEPLOY Pocong Userbot</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ikyfadilla/PocongUserbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/konsolxnxx/PocongUserbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
