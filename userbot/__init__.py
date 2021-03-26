@@ -163,10 +163,10 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Petercord-Usebotilham")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Pocong Userbot")
 
 # Bot version
-BOT_VER = os.environ.get("BOT_VER", "4.0")
+BOT_VER = os.environ.get("BOT_VER", "5.0")
 
 # Default .alive username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -176,7 +176,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/d732516a8511750c153c6.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/f36fe8fc696203737e820.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -315,7 +315,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚔ PETERCORD-USERBOT Telah Aktif⚔```")
+    await bot.send_message(BOTLOG_CHATID, "```⚔ POCONG USERBOT Telah Aktif⚔```")
     return
 
 with bot:
@@ -386,7 +386,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("Petercord-Userbotilham, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/ilham77mansiz/Petercord-Userbotilham.git)")
+                await event.reply("Petercord-Userbotilham, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/ikyfadilla/PocongUserbot.git)")
             else:
                 await event.reply(f"`Hai Sayang {ALIVE_NAME}\n\nApa Kabarmu?`")
 
@@ -400,7 +400,7 @@ with bot:
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Petercord-Userbotilham:** \n".format(
-                        "**❂ Petercord-Userbotilham**",
+                        "**❂ Pocong Userbot**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -408,22 +408,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Petercord-Userbotilham ",
+                    "Bantuan Pocong Userbot ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**Petercord-Userbotilham**",
-                    text="""**Anda Bisa Membuat Gabut Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/Lorduserbot_Group)""",
+                    "**Pocong Userbot**",
+                    text="""**Anda Bisa Membuat Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/LifeeOrDeath)""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Repo Petercord-Userbotilham",
-                                "https://github.com/ilham77mansiz/Petercord-Userbotilham"),
+                                "Repo Pocong Userbot",
+                                "https://github.com/ikyfadilla/PocongUserbot"),
                             custom.Button.url(
                                 "Pemilik Repo",
-                                "t.me/bismillahselaluadaa")],
+                                "t.me/PocongOnlen")],
                     ],
                     link_preview=False,
                 )
@@ -443,7 +443,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy Lord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Pocong Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -461,7 +461,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy Lord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Pocong Userbot Anda Sendiri, Jangan Menggunakan Milik Saya {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -492,7 +492,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Harap Deploy Petercord-Userbotilham Anda Sendiri, Jangan Menggunakan Milik Petercord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Pocong Userbot Anda Sendiri, Jangan Menggunakan Milik Saya {ALIVE_NAME} ツ"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
