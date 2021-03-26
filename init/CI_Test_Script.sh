@@ -21,5 +21,5 @@ git remote set-url origin https://${GH_USERNAME}:${GH_PERSONAL_TOKEN}@github.com
 git fetch
 git checkout staging
 git pull origin staging
-git push --force origin staging: Petercord User
-tg_sendinfo "<code>I have merged all commits from staging into Lord-Userbot</code>"
+git push --force origin staging: pocong
+tg_sendinfo "<code>I have merged all commits from staging into Pocong Userbot</code>"
