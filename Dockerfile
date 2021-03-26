@@ -4,7 +4,7 @@ FROM liualvinas24/docker:groovy
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b pocong https://github.com/konsolxnxx/PocongUserbot /root/userbot
+RUN git clone https://github.com/konsolxnxx/PocongUserbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
