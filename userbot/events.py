@@ -97,11 +97,11 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**Petercord User ERROR**\n"
-                    link = "Silahkan chat: @bismillahselaluadaa"
+                    text = "**Pocong Userbot ERROR**\n"
+                    link = "Silahkan chat: @PocongOnlen"
                     text += "Untuk melaporkan kesalahan"
                     text += f"- tinggal teruskan pesan ini {link}.\n"
-                    text += "ILham Mansiezz Siap Membantu Kamu\n"
+                    text += "Saya Siap Membantu Kamu\n"
 
                     ftext = "========== DISCLAIMER =========="
                     ftext += "\nThis file uploaded ONLY here,"
