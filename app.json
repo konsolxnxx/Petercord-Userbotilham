@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ikyfadilla/PocongUserbot",
+  "repository": "https://github.com/konsolxnxx/PocongUserbot",
   "telegram": "https://t.me/LifeeOrDeath",
   "success_url": "https://pornhub.com",
   "stack": "container",
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @bismillahselaluadaa di telegram",
+      "description": "Dapatkan String Session di termux caranya ada di repo",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -32,7 +32,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Heroku API KEY mu, dapatkan dari web 'https://dashboard.heroku.com/account'",
-      "value": "Check Di Heroku Dashboard Mu",
+      "value": "",
       "required": true
     },
     "BOTLOG": {
